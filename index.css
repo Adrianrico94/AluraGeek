@@ -1,0 +1,71 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+  
+.fondo-color {
+  background-color: #5300c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Titulo1{
+ font-family: "Press Start 2P", system-ui;
+ font-weight: 400;
+ margin: 20px;
+ 
+} 
+
+.main-conteiner{
+    display:flex;
+    margin: 20px;
+    justify-content:space-around;
+}
+
+.tarjeta{
+    width: 100px; /* Ajusta el tamaño del icono dentro del botón */
+    height: 150px; /* Mantiene la proporción */
+}
+
+.delete-button{
+    display: flex;
+    width: 40px; /* Ajusta el tamaño del icono dentro del botón */
+    height: 30px; /* Mantiene la proporción */
+
+}
+.form-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: 30p;
+    gap: 10px;
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.form-conteiner input{
+    border-radius: 10px;
+    border: 2px solid #03318C;
+   
+}
+.card-conteiner--value{
+    display: flex;
+    gap: 10px 10px;
+    margin: 10px;
+}
+
+.delete-button{
+    background-color: #5D04D9;
+}
